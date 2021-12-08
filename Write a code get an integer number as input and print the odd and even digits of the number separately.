@@ -1,0 +1,12 @@
+n=input()
+odd_l=[]
+even_l=[]
+for i in n:
+    if int(i)%2==0:
+        even_l.append(i)
+    else:
+        odd_l.append(i)
+even_l.sort()
+odd_l.sort()
+print(*even_l)
+print(*odd_l)
