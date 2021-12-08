@@ -1,0 +1,5 @@
+a=input()
+arr=[]
+for i in a:
+    arr.append(i)
+print(*arr)
