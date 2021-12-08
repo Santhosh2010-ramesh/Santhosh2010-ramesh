@@ -1,0 +1,7 @@
+lis=list(map(int,input().split()))
+   for i in range(len(lis)):
+     for j in range(len(lis)):
+        for k in range(len(list)):
+           if i!=j!=k:
+              if sum(i,j,k)==target
+                 return i,j,k
