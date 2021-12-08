@@ -1,0 +1,4 @@
+#A Simple Hello World
+a=input()
+for i in a.split(" "):
+  print(i)
