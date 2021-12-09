@@ -1,0 +1,4 @@
+p,t,r=map(float,input().split())
+a=p*t*r
+b=a/100
+print(round(b,2))
