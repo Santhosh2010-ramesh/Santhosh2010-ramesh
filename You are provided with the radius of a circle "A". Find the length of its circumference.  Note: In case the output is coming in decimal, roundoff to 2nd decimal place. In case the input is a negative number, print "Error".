@@ -1,0 +1,4 @@
+a=float(input())
+b=2*(22*a)
+c=b/7
+print(round(c,2))
