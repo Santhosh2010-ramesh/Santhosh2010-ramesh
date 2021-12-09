@@ -1,0 +1,6 @@
+a,b,c=map(int,input().split())
+d=((b**2)-(4*a*c))**0.5
+m=(d-b)/(2*a)
+n=-(d+b)/(2*a)
+print(f'{m:.2f}')
+print(f'{n:.2f}')
